@@ -1,5 +1,5 @@
-### 直接看图吧，自己写的selfview，可以直接用
-[CimageView](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/activity/CircleViewActivity.java)
+### 直接看图吧，自己写的selfview，可以直接用，喜欢就点个star吧
+[CircleView](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/activity/CircleViewActivity.java)
 #### 圆形的饼状图
 
 ![S70427-11455225.jpg](http://upload-images.jianshu.io/upload_images/3001453-0701dadbbde9f333.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
