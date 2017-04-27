@@ -22,6 +22,5 @@
 
 ![S70427-19180549.jpg](http://upload-images.jianshu.io/upload_images/3001453-f9278028e616eebd.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![S70427-19175462.jpg](http://upload-images.jianshu.io/upload_images/3001453-e9808925b5601867.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![S70427-19182204.jpg](http://upload-images.jianshu.io/upload_images/3001453-b8ba4575af25c85c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![S70427-19170761.jpg](http://upload-images.jianshu.io/upload_images/3001453-e2d8011078e74efe.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![1493335479979.mp4_1493336353.gif](http://upload-images.jianshu.io/upload_images/3001453-02f7e2a8724dacd9.gif?imageMogr2/auto-orient/strip)
