@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fed255"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:yk="http://schemas.android.com/apk/res-auto"
+    tools:context="com.yk.myselfview.activity.LeafLoadActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="loading ..."
+        android:textColor="#FFA800"
+        android:textSize="30dp" />
+    <RelativeLayout
+        android:layout_width="302dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <com.yk.myselfview.views.LeafLoadView
+            android:id="@+id/leafview"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            yk:backgroundColor="#fdf0c8"
+            yk:borderColor="#fddd84"
+            yk:seekColor="#fcc11d"
+            yk:circleColor="#ffffff"
+            yk:borderWidth="18"
+            yk:circleWidth="8"
+            yk:rotationSpeed="800"
+            yk:circleLeftStyle="true"/>
+        <ImageView
+            android:id="@+id/fan_p"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:src="@mipmap/fengshan" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="302dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <com.yk.myselfview.views.LeafLoadView
+            android:id="@+id/leafview_2"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            yk:backgroundColor="#3e3e3e"
+            yk:borderColor="#6b6b6b"
+            yk:seekColor="#65f765"
+            yk:circleColor="#747474"
+            yk:borderWidth="20"
+            yk:circleWidth="12"
+            yk:rotationSpeed="300"
+            yk:circleLeftStyle="false"/>
+        <ImageView
+            android:id="@+id/fan_p2"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:src="@mipmap/fengshan" />
+    </RelativeLayout>
+</LinearLayout>

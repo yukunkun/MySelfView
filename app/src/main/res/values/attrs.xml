@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--leafLoadView-->
+    <attr name="backgroundColor" format="color" />
+    <attr name="borderColor" format="color" />
+    <attr name="seekColor" format="color" />
+    <attr name="circleLeftStyle" format="boolean" />
+    <attr name="rotationSpeed" format="integer" />
+    <attr name="borderWidth" format="integer" />
+    <attr name="circleWidth" format="integer" />
+    <attr name="circleColor" format="color"/>
+    <!--<attr name="imageScaleType">
+        <enum name="fillXY" value="0" />
+        <enum name="center" value="1" />
+    </attr>-->
+
+    <declare-styleable name="leafView">
+        <attr name="backgroundColor" />
+        <attr name="borderColor" />
+        <attr name="seekColor" />
+        <attr name="circleLeftStyle" />
+        <attr name="rotationSpeed" />
+        <attr name="borderWidth" />
+        <attr name="circleWidth" />
+        <attr name="circleColor" />
+    </declare-styleable>
+    <!--lockview-->
+    <attr name="color_no_finger_inner_circle" format="color" />
+    <attr name="color_no_finger_outer_circle" format="color" />
+    <attr name="color_finger_on" format="color" />
+    <attr name="color_finger_up" format="color" />
+    <attr name="count" format="integer" />
+    <attr name="tryTimes" format="integer" />
+
+    <declare-styleable name="GestureLockViewGroup">
+        <attr name="color_no_finger_inner_circle" />
+        <attr name="color_no_finger_outer_circle" />
+        <attr name="color_finger_on" />
+        <attr name="color_finger_up" />
+        <attr name="count" />
+        <attr name="tryTimes" />
+    </declare-styleable>
+</resources>
