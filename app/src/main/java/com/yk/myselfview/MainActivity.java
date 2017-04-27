@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.yk.myselfview.activity.BMoveViewActivity;
 import com.yk.myselfview.activity.CircleViewActivity;
 import com.yk.myselfview.activity.LeafLoadActivity;
 import com.yk.myselfview.activity.LockViewActivity;
@@ -29,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void LeafLoadView(View view) {
         Intent intent=new Intent(this, LeafLoadActivity.class);
+        startActivity(intent);
+    }
+
+    public void BMoveView(View view) {
+        Intent intent=new Intent(this, BMoveViewActivity.class);
         startActivity(intent);
     }
 }

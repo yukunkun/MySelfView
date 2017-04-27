@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".activity.LeafLoadActivity">
         </activity>
+        <activity android:name=".activity.BMoveViewActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:yk="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="com.yk.myselfview.activity.BMoveViewActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    <com.yk.myselfview.views.BMoveView
+        android:id="@+id/bmoveview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        yk:circleColor="#fd4040"
+        yk:lineColor="#fd4040"
+        yk:lineDuration="150"
+        yk:lineWidth="3"
+        yk:circleDuration="500"
+        yk:circleCenterColor="#FFFFFF"
+        yk:circleRadio="25"
+        />
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:gravity="center"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <RadioButton
+            android:id="@+id/rb_first"
+            android:button="@null"
+            android:text="索引"
+            android:layout_weight="1"
+            android:textColor="@drawable/rb_button"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/rb_second"
+            android:button="@null"
+            android:text="热门"
+            android:layout_weight="1"
+            android:textColor="@drawable/rb_button"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <RadioButton
+            android:id="@+id/rb_third"
+            android:button="@null"
+            android:text="我的"
+            android:layout_weight="1"
+            android:textColor="@drawable/rb_button"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </RadioGroup>
+</RelativeLayout>
+
+</RelativeLayout>
