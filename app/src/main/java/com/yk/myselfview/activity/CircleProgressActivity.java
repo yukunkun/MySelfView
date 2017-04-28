@@ -23,11 +23,12 @@ public class CircleProgressActivity extends AppCompatActivity {
 
     private void init() {
         mProgressbar = (CircleProgressbar) findViewById(R.id.circleprogress);
-
         List<Integer> mColorList=new ArrayList<>();
         mColorList.add(Color.GRAY);
         mColorList.add(Color.GREEN);
         mColorList.add(Color.BLUE);
+        mColorList.add(Color.RED);
+        mColorList.add(Color.YELLOW);
         mProgressbar.setColorList(mColorList);
 
     }
