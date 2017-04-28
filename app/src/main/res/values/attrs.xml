@@ -58,4 +58,13 @@
         <attr name="lineDuration" />
         <attr name="circleDuration" />
     </declare-styleable>
+
+<!--    <attr name="circleDuration" format="integer" />
+    <attr name="circleRadio" format="integer" />
+    <attr name="circleWidth" format="integer" />-->
+    <declare-styleable name="CircleProgressbar" >
+        <attr name="circleDuration" />
+        <attr name="circleRadio" />
+        <attr name="circleWidth" />
+    </declare-styleable>
 </resources>

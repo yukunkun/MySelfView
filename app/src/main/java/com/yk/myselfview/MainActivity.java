@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.yk.myselfview.activity.BMoveViewActivity;
+import com.yk.myselfview.activity.CircleProgressActivity;
 import com.yk.myselfview.activity.CircleViewActivity;
 import com.yk.myselfview.activity.LeafLoadActivity;
 import com.yk.myselfview.activity.LockViewActivity;
@@ -35,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void BMoveView(View view) {
         Intent intent=new Intent(this, BMoveViewActivity.class);
+        startActivity(intent);
+    }
+    public void CirclePro(View view) {
+        Intent intent=new Intent(this, CircleProgressActivity.class);
         startActivity(intent);
     }
 }
