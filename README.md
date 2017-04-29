@@ -24,6 +24,7 @@
 ![S70427-19175462.jpg](http://upload-images.jianshu.io/upload_images/3001453-e9808925b5601867.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![S70427-19170761.jpg](http://upload-images.jianshu.io/upload_images/3001453-e2d8011078e74efe.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![1493335479979.mp4_1493336353.gif](http://upload-images.jianshu.io/upload_images/3001453-02f7e2a8724dacd9.gif?imageMogr2/auto-orient/strip)
+
 [CircleProgressbar](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/activity/LockViewActivity.java)
 #### CircleProgressbar 一个圆形的Loading bar
 ![_1493447079.gif](http://upload-images.jianshu.io/upload_images/3001453-3efc8cb7df1ad686.gif?imageMogr2/auto-orient/strip)
