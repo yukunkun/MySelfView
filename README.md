@@ -29,3 +29,7 @@
 #### CircleProgressbar 一个圆形的Loading bar
 ![_1493447079.gif](http://upload-images.jianshu.io/upload_images/3001453-3efc8cb7df1ad686.gif?imageMogr2/auto-orient/strip)
 
+[WaterLoadView](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/activity/WaterLoadActivity.java)
+#### WaterLoadView 一个加载的水滴动画的view
+![1493560903265.mp4_1493561079.gif](http://upload-images.jianshu.io/upload_images/3001453-40a93c76925e69ce.gif?imageMogr2/auto-orient/strip)
+
