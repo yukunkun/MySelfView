@@ -41,3 +41,9 @@
 
 ![1493560903265.mp4_1493561079.gif](http://upload-images.jianshu.io/upload_images/3001453-40a93c76925e69ce.gif?imageMogr2/auto-orient/strip)
 
+[VoiceLoadView](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/activity/VoiceLoadViewActivity.java)
+#### VoiceLoadView 一个视屏播放声音控制的进度显示view
+[使用方法](http://www.jianshu.com/p/06c54990fad8)
+
+![]()
+
