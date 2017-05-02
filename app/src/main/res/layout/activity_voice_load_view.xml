@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:yk="http://schemas.android.com/apk/res-auto"
+    tools:context="com.yk.myselfview.activity.VoiceLoadViewActivity">
+    <com.yk.myselfview.views.VoiceLoadView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        yk:bg="@mipmap/icon"
+        yk:circleWidth="6"
+        yk:firstColor="#00fc26"
+        yk:secondColor="#f24c4f"
+        yk:dotCount="10"
+        yk:splitSize="20"
+        yk:circleRadio="40"
+        yk:imageDevide="0"
+        />
+    <com.yk.myselfview.views.VoiceLoadView
+        android:id="@+id/voiceloadview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        yk:bg="@mipmap/voice"
+        yk:circleWidth="8"
+        yk:firstColor="#a7a7a7"
+        yk:secondColor="#5ff24c"
+        yk:dotCount="12"
+        yk:splitSize="18"
+        yk:circleRadio="50"
+        yk:imageDevide="0"
+        />
+    <SeekBar
+        android:layout_marginTop="20dp"
+        android:id="@+id/seekbar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

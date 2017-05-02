@@ -27,6 +27,8 @@
         </activity>
         <activity android:name=".activity.WaterLoadViewActivity">
         </activity>
+        <activity android:name=".activity.VoiceLoadViewActivity">
+        </activity>
     </application>
 
 </manifest>

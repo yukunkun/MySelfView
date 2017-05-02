@@ -10,6 +10,7 @@ import com.yk.myselfview.activity.CircleProgressActivity;
 import com.yk.myselfview.activity.CircleViewActivity;
 import com.yk.myselfview.activity.LeafLoadActivity;
 import com.yk.myselfview.activity.LockViewActivity;
+import com.yk.myselfview.activity.VoiceLoadViewActivity;
 import com.yk.myselfview.activity.WaterLoadViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -46,6 +47,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void WaterLoad(View view) {
         Intent intent=new Intent(this, WaterLoadViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void VoiceLoad(View view) {
+        Intent intent=new Intent(this, VoiceLoadViewActivity.class);
         startActivity(intent);
     }
 }
