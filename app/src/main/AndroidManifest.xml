@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".activity.CircleProgressActivity">
         </activity>
+        <activity android:name=".activity.WaterLoadViewActivity">
+        </activity>
     </application>
 
 </manifest>

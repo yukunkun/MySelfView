@@ -67,4 +67,16 @@
         <attr name="circleRadio" />
         <attr name="circleWidth" />
     </declare-styleable>
+
+<!--WaterLoadView-->
+    <attr name="circleSmallRadio" format="integer"/>
+    <attr name="circleTop" format="integer"/>
+    <attr name="loadTime" format="integer"/>
+    <declare-styleable name="WaterLoadView" >
+        <attr name="circleColor" />
+        <attr name="circleSmallRadio" />
+        <attr name="circleTop" />
+        <attr name="loadTime" />
+
+    </declare-styleable>
 </resources>

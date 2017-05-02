@@ -10,6 +10,7 @@ import com.yk.myselfview.activity.CircleProgressActivity;
 import com.yk.myselfview.activity.CircleViewActivity;
 import com.yk.myselfview.activity.LeafLoadActivity;
 import com.yk.myselfview.activity.LockViewActivity;
+import com.yk.myselfview.activity.WaterLoadViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,6 +41,11 @@ public class MainActivity extends AppCompatActivity {
     }
     public void CirclePro(View view) {
         Intent intent=new Intent(this, CircleProgressActivity.class);
+        startActivity(intent);
+    }
+
+    public void WaterLoad(View view) {
+        Intent intent=new Intent(this, WaterLoadViewActivity.class);
         startActivity(intent);
     }
 }

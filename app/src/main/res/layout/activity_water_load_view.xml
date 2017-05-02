@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:yk="http://schemas.android.com/apk/res-auto"
+    tools:context="com.yk.myselfview.activity.WaterLoadViewActivity">
+
+    <com.yk.myselfview.views.WaterLoadView
+        android:id="@+id/waterload"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        yk:circleColor="#FF0077"
+        yk:circleTop="70"
+        yk:circleSmallRadio="5"
+        yk:loadTime="1000" />
+    <com.yk.myselfview.views.WaterLoadView
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        yk:circleColor="#00ff40"
+        yk:circleTop="120"
+        yk:circleSmallRadio="10"
+        yk:loadTime="1000" />
+    <com.yk.myselfview.views.WaterLoadView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        yk:circleColor="#0004ff"
+        yk:circleTop="200"
+        yk:circleSmallRadio="18"
+        yk:loadTime="1200" />
+</LinearLayout>
