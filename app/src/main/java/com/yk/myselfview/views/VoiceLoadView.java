@@ -24,7 +24,7 @@ public class VoiceLoadView extends View {
     private int mHeight;
     private int mRadio;
     private int arcCount;
-    private int mCurrentCount=6;
+    private int mCurrentCount;
     private int mSplitSize;
     private int mCircleWidth;
     private Rect mRect=new Rect();
@@ -81,7 +81,6 @@ public class VoiceLoadView extends View {
                     break;
                 case R.styleable.VoiceLoadView_splitSize:
                     mSplitSize = a.getInt(attr,20);
-//                    mSplitSize = dip2px(context,a.getInt(attr,20));
                     break;
                 case R.styleable.VoiceLoadView_circleRadio:
                     mRadio = dip2px(context,a.getInt(attr,20));
