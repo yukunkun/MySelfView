@@ -12,6 +12,8 @@ import com.yk.myselfview.activity.LeafLoadActivity;
 import com.yk.myselfview.activity.LockViewActivity;
 import com.yk.myselfview.activity.VoiceLoadViewActivity;
 import com.yk.myselfview.activity.WaterLoadViewActivity;
+import com.yk.myselfview.activity.ZqChartActivity;
+import com.yk.myselfview.views.ZqChart;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void VoiceLoad(View view) {
         Intent intent=new Intent(this, VoiceLoadViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void ZGChart(View view) {
+        Intent intent=new Intent(this, ZqChartActivity.class);
         startActivity(intent);
     }
 }

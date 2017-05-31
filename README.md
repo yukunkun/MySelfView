@@ -47,3 +47,8 @@
 
 ![1493703912476.mp4_1493738906.gif](http://upload-images.jianshu.io/upload_images/3001453-092c16231ed73f12.gif?imageMogr2/auto-orient/strip)
 
+#### ZqChart 一个折线图的view
+[使用方法](http://www.jianshu.com/p/f9a08e51c477)
+
+![]()
+

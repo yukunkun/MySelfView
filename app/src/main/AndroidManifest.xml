@@ -29,6 +29,8 @@
         </activity>
         <activity android:name=".activity.VoiceLoadViewActivity">
         </activity>
+        <activity android:name=".activity.ZqChartActivity">
+        </activity>
     </application>
 
 </manifest>
