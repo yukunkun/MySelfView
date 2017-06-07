@@ -125,7 +125,7 @@ public class ZqChart extends View {
                 width=defaultWidth;
             }
             if (heightmode==MeasureSpec.AT_MOST){
-                height= (int) (defaultUnitHeight*months.size()*1.2);
+                height= (int) (defaultUnitHeight*months.size()*1.25);
             }
         }
 
