@@ -11,7 +11,7 @@
 
 ![S70427-11464511.jpg](http://upload-images.jianshu.io/upload_images/3001453-4ef628fb60705047.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-[LeafLoadView](https://github.com/yukunkun/MySelfView/tree/master/app/src/main/java/com/yk/myselfview/activity/LeafLoadViewActivity.java)
+[LeafLoadView](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/views/LeafLoadView.java)
 #### 一个加载的进度条，有动画，右边的风扇可以旋转
 [使用方法](http://www.jianshu.com/p/542b5d92efd6)
 
@@ -46,7 +46,7 @@
 [使用方法](http://www.jianshu.com/p/06c54990fad8)
 
 ![1493703912476.mp4_1493738906.gif](http://upload-images.jianshu.io/upload_images/3001453-092c16231ed73f12.gif?imageMogr2/auto-orient/strip)
-
+[ZqChart](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/activity/ZqChartActivity.java)
 #### ZqChart 一个折线图的view
 [使用方法](http://www.jianshu.com/p/f9a08e51c477)
 

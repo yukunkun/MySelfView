@@ -1,8 +1,8 @@
 package com.yk.myselfview;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.yk.myselfview.activity.BMoveViewActivity;
@@ -10,6 +10,7 @@ import com.yk.myselfview.activity.CircleProgressActivity;
 import com.yk.myselfview.activity.CircleViewActivity;
 import com.yk.myselfview.activity.LeafLoadActivity;
 import com.yk.myselfview.activity.LockViewActivity;
+import com.yk.myselfview.activity.RoateMenusActivity;
 import com.yk.myselfview.activity.VoiceLoadViewActivity;
 import com.yk.myselfview.activity.WaterLoadViewActivity;
 import com.yk.myselfview.activity.ZqChartActivity;
@@ -25,6 +26,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void CircleView(View view) {
         Intent intent=new Intent(this, CircleViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void RoateMenus(View view) {
+        Intent intent=new Intent(this, RoateMenusActivity.class);
         startActivity(intent);
     }
 
@@ -61,4 +67,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent=new Intent(this, ZqChartActivity.class);
         startActivity(intent);
     }
+
+
 }

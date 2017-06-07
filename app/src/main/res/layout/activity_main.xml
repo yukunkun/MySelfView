@@ -16,6 +16,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <Button
+            android:text="RoateMenus"
+            android:onClick="RoateMenus"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
             android:text="LockView"
             android:onClick="LockView"
             android:layout_marginTop="5dp"

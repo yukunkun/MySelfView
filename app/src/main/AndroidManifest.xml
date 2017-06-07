@@ -31,6 +31,8 @@
         </activity>
         <activity android:name=".activity.ZqChartActivity">
         </activity>
+        <activity android:name=".activity.RoateMenusActivity">
+        </activity>
     </application>
 
 </manifest>
