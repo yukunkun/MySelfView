@@ -17,6 +17,7 @@ public class RoateMenusActivity extends AppCompatActivity implements View.OnClic
     private Button mItemButton4;
     private Button mItemButton5;
     private boolean mIsMenuOpen = false;
+    private int radia=350;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,18 +50,18 @@ public class RoateMenusActivity extends AppCompatActivity implements View.OnClic
         if (v == mMenuButton) {
             if (!mIsMenuOpen) {
                 mIsMenuOpen = true;
-                AnimUtils.doAnimateOpen(mItemButton1, 0, 5, 300);
-                AnimUtils.doAnimateOpen(mItemButton2, 1, 5, 300);
-                AnimUtils.doAnimateOpen(mItemButton3, 2, 5, 300);
-                AnimUtils.doAnimateOpen(mItemButton4, 3, 5, 300);
-                AnimUtils.doAnimateOpen(mItemButton5, 4, 5, 300);
+                AnimUtils.doAnimateOpen(mItemButton1, 0, 5, radia);
+                AnimUtils.doAnimateOpen(mItemButton2, 1, 5, radia);
+                AnimUtils.doAnimateOpen(mItemButton3, 2, 5, radia);
+                AnimUtils.doAnimateOpen(mItemButton4, 3, 5, radia);
+                AnimUtils.doAnimateOpen(mItemButton5, 4, 5, radia);
             } else {
                 mIsMenuOpen = false;
-                AnimUtils.doAnimateClose(mItemButton1, 0, 5, 300);
-                AnimUtils.doAnimateClose(mItemButton2, 1, 5, 300);
-                AnimUtils.doAnimateClose(mItemButton3, 2, 5, 300);
-                AnimUtils.doAnimateClose(mItemButton4, 3, 5, 300);
-                AnimUtils.doAnimateClose(mItemButton5, 4, 5, 300);
+                AnimUtils.doAnimateClose(mItemButton1, 0, 5, radia);
+                AnimUtils.doAnimateClose(mItemButton2, 1, 5, radia);
+                AnimUtils.doAnimateClose(mItemButton3, 2, 5, radia);
+                AnimUtils.doAnimateClose(mItemButton4, 3, 5, radia);
+                AnimUtils.doAnimateClose(mItemButton5, 4, 5, radia);
             }
         } else {
             Toast.makeText(this, "你点击了", Toast.LENGTH_SHORT).show();
