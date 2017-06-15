@@ -50,5 +50,5 @@
 #### ZqChart 一个折线图的view
 [使用方法](http://www.jianshu.com/p/f9a08e51c477)
 
-![S70605-18053556.jpg](http://upload-images.jianshu.io/upload_images/3001453-f1e029ca963807ff.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![3001453-f1e029ca963807ff.jpg](http://upload-images.jianshu.io/upload_images/3001453-7652b1b9171479a4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
