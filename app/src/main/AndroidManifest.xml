@@ -33,6 +33,10 @@
         </activity>
         <activity android:name=".activity.RoateMenusActivity">
         </activity>
+        <activity android:name=".activity.BallViewActivity">
+        </activity>
+        <activity android:name=".activity.ViewPagerActivity">
+        </activity>
     </application>
 
 </manifest>

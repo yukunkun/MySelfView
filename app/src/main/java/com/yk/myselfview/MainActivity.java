@@ -6,11 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.yk.myselfview.activity.BMoveViewActivity;
+import com.yk.myselfview.activity.BallViewActivity;
 import com.yk.myselfview.activity.CircleProgressActivity;
 import com.yk.myselfview.activity.CircleViewActivity;
 import com.yk.myselfview.activity.LeafLoadActivity;
 import com.yk.myselfview.activity.LockViewActivity;
 import com.yk.myselfview.activity.RoateMenusActivity;
+import com.yk.myselfview.activity.ViewPagerActivity;
 import com.yk.myselfview.activity.VoiceLoadViewActivity;
 import com.yk.myselfview.activity.WaterLoadViewActivity;
 import com.yk.myselfview.activity.ZqChartActivity;
@@ -68,5 +70,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void BallView(View view) {
+        Intent intent=new Intent(this, BallViewActivity.class);
+        startActivity(intent);
+    }
 
+    public void ViewPagers(View view) {
+        Intent intent=new Intent(this, ViewPagerActivity.class);
+        startActivity(intent);
+    }
 }
