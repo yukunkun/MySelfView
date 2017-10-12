@@ -47,7 +47,7 @@
 
 ![1493703912476.mp4_1493738906.gif](http://upload-images.jianshu.io/upload_images/3001453-092c16231ed73f12.gif?imageMogr2/auto-orient/strip)
 [ZqChart](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/activity/ZqChartActivity.java)
-#### ZqChart 一个折线图的view
+#### ZqChart 一个折线图的view 
 [使用方法](http://www.jianshu.com/p/f9a08e51c477)
 
 ![3001453-f1e029ca963807ff.jpg](http://upload-images.jianshu.io/upload_images/3001453-7652b1b9171479a4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
