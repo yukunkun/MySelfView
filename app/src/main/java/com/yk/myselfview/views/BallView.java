@@ -1,9 +1,13 @@
 package com.yk.myselfview.views;
 
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.PointF;
 import android.graphics.RectF;
 import android.support.annotation.ColorInt;
 import android.support.annotation.Nullable;
@@ -11,6 +15,10 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.animation.AccelerateDecelerateInterpolator;
+import android.view.animation.AnticipateInterpolator;
+
+import com.yk.myselfview.utils.MyType;
 
 /**
  * Created by yukun on 17-6-9.
@@ -21,9 +29,11 @@ public class BallView extends View {
     private Paint mPaintText;
     private int mWidth;
     private int mHeight;
-    private int radio=20;
+    private int radio=10;
     private int lastNum=30;
     private int position=12;
+    private float initX=40;
+    private float initY=40;
     public BallView(Context context) {
         super(context);
         init(context,null,0);
@@ -50,12 +60,26 @@ public class BallView extends View {
         mPaintText.setAntiAlias(true);
         mPaintText.setStyle(Paint.Style.FILL);
         mPaintText.setTextSize(dip2px(context,12));
-        radio=dip2px(context,10);
+        radio=dip2px(context,radio);
     }
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        int widthMode = MeasureSpec.getMode(widthMeasureSpec);
+        int widthSize = MeasureSpec.getSize(widthMeasureSpec);
+        int heightMode = MeasureSpec.getMode(heightMeasureSpec);
+        int heightSize = MeasureSpec.getSize(heightMeasureSpec);
+        int width=0;
+        int height=0 ;
+        if (widthMode == MeasureSpec.EXACTLY)
+        {
+            width = widthSize;
+        }
+        if (heightMode == MeasureSpec.EXACTLY)
+        {
+            height = heightSize;
+        }
+        setMeasuredDimension(width, height);
     }
 
     @Override
@@ -68,66 +92,39 @@ public class BallView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        canvas.translate(mWidth/2,mHeight/2);
         mPaint.setColor(Color.BLUE);
-        canvas.drawCircle(-mWidth/4,0,radio,mPaint);
-        canvas.drawLine(-mWidth/4-radio/2,0,-mWidth/4+(mWidth/2/lastNum)*position,0,mPaint);
-        mPaint.setColor(Color.GRAY);
-        canvas.drawCircle(mWidth/4,0,radio,mPaint);
-        canvas.drawLine(-mWidth/4+(mWidth/2/lastNum)*position,0,mWidth/4-radio/2,0,mPaint);
-
-        canvas.drawText("1",-mWidth/4-"1".length()*5,radio+radio*2,mPaintText);
-        canvas.drawText(lastNum+"",mWidth/4-(lastNum+"").length()*5,radio+radio*2,mPaintText);
-
-        canvas.drawCircle(-mWidth/4+(mWidth/2/lastNum)*position,0,radio,mPaint);
-        canvas.drawText(position+"",-mWidth/4+mWidth/2/lastNum*position-radio/2,radio/2,mPaintText);
-    }
-
-    //手势还没写,自己玩er了
-    @Override
-    public boolean onTouchEvent(MotionEvent event) {
-        switch (event.getAction()){
-
-        case MotionEvent.ACTION_DOWN:
-        case MotionEvent.ACTION_MOVE:
-        //触摸的位置
-        float x = event.getX();
-        float y = event.getY();
-
-//        if (lastX==0||Math.abs(lastX-x)>mDMoneyRateW){
-//            Log.e("onTouchEvent","x:"+x);
-//            Log.e("onTouchEvent","y:"+y);
-//            for (Chart chart : mDatasSingle) {
-//                boolean contains = chart.ares.contains(x, y);
-//                if (contains){
-//                    mTouch=chart;
-//                    invalidate();
-//                    break;
-//                }
-//            }
-//            lastX =x;
-//        }
-        break;
-        case MotionEvent.ACTION_UP:
-        //判断出点击的位置,是否属于月份的位置
-        float xUp = event.getX();
-        float yUp = event.getY();
-//        if (xUp>6*mDMoneyRateW&&xUp<mMeasuredWidth){
-//            for (Chart month : months) {
-//                RectF monthAres = month.getMonthAres();
-//                if (monthAres.contains(xUp,yUp)){
-//                    setChooseMonth(month.getDateMonth());
-//                }
-//            }
-//        }
-        break;
-    }
-
-        return true;
+        mPaint.setAntiAlias(true);
+        mPaint.setStyle(Paint.Style.STROKE);
+        mPaint.setStrokeWidth(5);
+        canvas.drawCircle(initX,initY,radio,mPaint);
     }
 
     public static int dip2px(Context context, float dpValue) {
         final float scale = context.getResources().getDisplayMetrics().density;
         return (int) (dpValue * scale + 0.5f);
+    }
+
+    public void startAnimation(final View view){
+        PointF pointFFirst = new PointF(mWidth/4,mHeight/4);
+        PointF pointFSecond = new PointF(mWidth/4*3,mHeight/4*3);
+        PointF pointFStart = new PointF(0,mHeight/2);
+        PointF pointFEnd = new PointF(mWidth,mHeight/2);
+
+        ValueAnimator animator = ValueAnimator.ofObject(new MyType(pointFFirst, pointFSecond), pointFStart, pointFEnd);
+        animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+            @Override
+            public void onAnimationUpdate(ValueAnimator animation) {
+                PointF value = (PointF) animation.getAnimatedValue();
+                view.setX(value.x);
+                view.setY(value.y);
+
+            }
+        });
+
+        AnimatorSet set = new AnimatorSet();
+        set.setDuration(2000);
+        set.play(animator);
+        set.start();
+
     }
 }

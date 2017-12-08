@@ -8,7 +8,12 @@
     tools:context="com.yk.myselfview.activity.BallViewActivity">
     <com.yk.myselfview.views.BallView
         android:id="@+id/ballview"
-        android:background="#ffff55"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="300dp"/>
+    <Button android:layout_width="match_parent"
+            android:onClick="start"
+            android:text="start"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"/>
+
 </RelativeLayout>
