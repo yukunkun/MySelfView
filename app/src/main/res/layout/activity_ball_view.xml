@@ -15,5 +15,4 @@
             android:text="start"
             android:layout_alignParentBottom="true"
             android:layout_height="wrap_content"/>
-
 </RelativeLayout>

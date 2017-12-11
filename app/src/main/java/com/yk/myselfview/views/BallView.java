@@ -70,7 +70,7 @@ public class BallView extends View {
         int heightMode = MeasureSpec.getMode(heightMeasureSpec);
         int heightSize = MeasureSpec.getSize(heightMeasureSpec);
         int width=0;
-        int height=0 ;
+        int height=0;
         if (widthMode == MeasureSpec.EXACTLY)
         {
             width = widthSize;

@@ -37,6 +37,8 @@
         </activity>
         <activity android:name=".activity.ViewPagerActivity">
         </activity>
+        <activity android:name=".activity.ScrollViewActivity">
+        </activity>
     </application>
 
 </manifest>
