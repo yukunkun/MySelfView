@@ -52,3 +52,8 @@
 
 ![3001453-f1e029ca963807ff.jpg](http://upload-images.jianshu.io/upload_images/3001453-7652b1b9171479a4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+[VerticalViewPager](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/views/VerticalViewPager.java)
+#### `VerticalViewPager` 一个竖直滚动的`ViewPager`
+[使用方法](http://www.jianshu.com/p/f9a08e51c477)
+
+![](http://upload-images.jianshu.io/upload_images/3001453-068ff97e6b749129.jpg)

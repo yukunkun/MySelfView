@@ -1,7 +1,12 @@
 ### `VerticalViewPager` 一个竖直滚动的`ViewPager`
 #### 继承于`ViewPager`,与`ViewPager`完全一样的用法,包括适配器，监听都是一样的，只是滑动方向不同。
+#### 偶尔我们会发现`viewpager`想要竖直滑动，但是官方又没有提供方法，在`stackoverflow`上发现了这个，可以完美实现我们的需求，在这里做一下记录
+#### 实现的东西，说不定就会遇到. 
+[简书介绍](http://www.jianshu.com/p/f1163d1161a2)
 [VerticalViewPager获取](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/views/VerticalViewPager.java)
-#### 用法：
+![](http://upload-images.jianshu.io/upload_images/3001453-068ff97e6b749129.jpg)
+![](http://upload-images.jianshu.io/upload_images/3001453-a1b489e884924803.jpg)
+#### 用法很简单，拷贝直接使用：
      <com.yk.myselfview.views.VerticalViewPager 
             android:layout_width="match_parent"
             android:layout_centerInParent="true"
