@@ -4,6 +4,7 @@
 #### 实现的东西，说不定就会遇到. 
 [简书介绍](http://www.jianshu.com/p/f1163d1161a2)
 [VerticalViewPager获取](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/views/VerticalViewPager.java)
+
 ![](http://upload-images.jianshu.io/upload_images/3001453-068ff97e6b749129.jpg)
 ![](http://upload-images.jianshu.io/upload_images/3001453-a1b489e884924803.jpg)
 #### 用法很简单，拷贝直接使用：
