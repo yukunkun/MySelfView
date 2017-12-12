@@ -39,6 +39,8 @@
         </activity>
         <activity android:name=".activity.ScrollViewActivity">
         </activity>
+        <activity android:name=".activity.VerticalViewPagerActivity">
+        </activity>
     </application>
 
 </manifest>

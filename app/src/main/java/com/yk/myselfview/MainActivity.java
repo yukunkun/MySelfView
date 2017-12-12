@@ -13,6 +13,7 @@ import com.yk.myselfview.activity.LeafLoadActivity;
 import com.yk.myselfview.activity.LockViewActivity;
 import com.yk.myselfview.activity.RoateMenusActivity;
 import com.yk.myselfview.activity.ScrollViewActivity;
+import com.yk.myselfview.activity.VerticalViewPagerActivity;
 import com.yk.myselfview.activity.ViewPagerActivity;
 import com.yk.myselfview.activity.VoiceLoadViewActivity;
 import com.yk.myselfview.activity.WaterLoadViewActivity;
@@ -83,6 +84,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void scrollView(View view) {
         Intent intent=new Intent(this, ScrollViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void VerticalViewPager(View view) {
+        Intent intent=new Intent(this, VerticalViewPagerActivity.class);
         startActivity(intent);
     }
 }

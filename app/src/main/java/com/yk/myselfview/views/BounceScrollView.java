@@ -61,7 +61,6 @@ public class BounceScrollView extends ScrollView {
                 distanceX = currentX - lastX;
                 distanceY = currentY - lastY;
                 if (Math.abs(distanceX) < Math.abs(distanceY) && Math.abs(distanceY) > 12) {
-
                     upDownSlide = true;
                 }
                 break;
@@ -90,7 +89,6 @@ public class BounceScrollView extends ScrollView {
     public boolean onTouchEvent(MotionEvent ev) {
         return super.onTouchEvent(ev);
     }
-
 
     /***
      * 触摸事件
