@@ -59,7 +59,8 @@
 ![](http://upload-images.jianshu.io/upload_images/3001453-068ff97e6b749129.jpg)
 [RainBallLayout](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/views/RainBallLayout.java)
 #### `RainBallLayout` 一个类似Window7气泡屏保的view
-[使用方法](http://www.jianshu.com/p/f9a08e51c477)
+[使用方法简书](http://www.jianshu.com/p/51c706222a7b)
+[使用demo](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/activity/BallsViewActivity.java)
 
 ![不重叠气泡](https://github.com/yukunkun/MySelfView/blob/master/shootscreen/image1/S71213-15364457.jpg)
 ![重叠气泡](https://github.com/yukunkun/MySelfView/blob/master/shootscreen/image2/S71213-15383785.jpg)
