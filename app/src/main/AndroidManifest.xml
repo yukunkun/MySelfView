@@ -41,6 +41,8 @@
         </activity>
         <activity android:name=".activity.VerticalViewPagerActivity">
         </activity>
+        <activity android:name=".activity.BallsViewActivity">
+        </activity>
     </application>
 
 </manifest>

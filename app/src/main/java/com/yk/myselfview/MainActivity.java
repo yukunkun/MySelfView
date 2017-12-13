@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.yk.myselfview.activity.BMoveViewActivity;
 import com.yk.myselfview.activity.BallViewActivity;
+import com.yk.myselfview.activity.BallsViewActivity;
 import com.yk.myselfview.activity.CircleProgressActivity;
 import com.yk.myselfview.activity.CircleViewActivity;
 import com.yk.myselfview.activity.LeafLoadActivity;
@@ -89,6 +90,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void VerticalViewPager(View view) {
         Intent intent=new Intent(this, VerticalViewPagerActivity.class);
+        startActivity(intent);
+    }
+
+    public void ballsView(View view) {
+        Intent intent=new Intent(this, BallsViewActivity.class);
         startActivity(intent);
     }
 }
