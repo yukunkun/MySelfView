@@ -3,6 +3,7 @@
 #### 偶尔我们会发现`viewpager`想要竖直滑动，但是官方又没有提供方法，在`stackoverflow`上发现了这个，可以完美实现我们的需求，在这里做一下记录
 #### 实现的东西，说不定就会遇到. 
 [简书介绍](http://www.jianshu.com/p/f1163d1161a2)
+
 [VerticalViewPager获取](https://github.com/yukunkun/MySelfView/blob/master/app/src/main/java/com/yk/myselfview/views/VerticalViewPager.java)
 
 ![](http://upload-images.jianshu.io/upload_images/3001453-068ff97e6b749129.jpg)
